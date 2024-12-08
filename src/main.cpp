@@ -72,7 +72,7 @@ class $modify(HookedLevelInfoLayer, LevelInfoLayer) {
 		log::debug("{} turned into {}", fungalInputBlocks[0], fungalOutputBlocks[0]);
 		auto echoWords = rand()%2 == 0 ? fungalInputBlocks[0] : fungalOutputBlocks[0];
 		auto fungalEcho = static_cast<CCLabelBMFont*>(this->getChildByID("fungal-echo"));
-		std::string echoMessage = std::format("YOU HEAR THE WORD \"{}\"\nECHOING AND SHIFTING IN COLOURS", echoWords);
+		std::string echoMessage = fmt::format("YOU HEAR THE WORD \"{}\"\nECHOING AND SHIFTING IN COLOURS", echoWords);
 		fungalEcho->setString(echoMessage.c_str());
 
 		auto fadeOut = cocos2d::CCFadeOut::create(3);
