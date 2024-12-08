@@ -1,0 +1,19 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "ziegenhainy.fungal_shift",
+	"name": "Fungal Shift",
+	"version": "v1.0.0",
+	"developer": "Ziegenhainy",
+	"description": "Adds Fungal Shifts from Noita",
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	}	
+}
